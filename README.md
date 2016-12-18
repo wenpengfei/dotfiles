@@ -1,10 +1,13 @@
 #Usage
+1.Copy .vimrc
 
-1.Set up [Vundle]
+`cp -f .vimrc ~/`
+
+2.Set up [Vundle]
 
 `$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
-2.Install plugins
+3.Install plugins
 
 Launch `vim` and run `:PluginInstall`
 
