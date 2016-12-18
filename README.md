@@ -10,6 +10,3 @@
 3.Install plugins
 
 Launch `vim` and run `:PluginInstall`
-
-To install from vim command line: `PluginInstall`
-

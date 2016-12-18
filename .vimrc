@@ -45,7 +45,7 @@ call vundle#end()            " required
 set number
 syntax enable " enable syntax hightlight and completion
 filetype on " try to detect file types
-colorscheme jellybeans 
+"colorscheme jellybeans 
 set sw=2
 set ts=2
 set cursorline
