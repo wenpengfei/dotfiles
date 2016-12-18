@@ -11,5 +11,5 @@
 
 Launch `vim` and run `:PluginInstall`
 
-To install from command line: `vim +PluginInstall +qall`
+To install from vim command line: `PluginInstall`
 
