@@ -7,6 +7,6 @@
 
 `$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
-3.Install plugins
+3.Install plugins.
 
 Launch `vim` and run `:PluginInstall`

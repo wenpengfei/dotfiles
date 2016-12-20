@@ -1,4 +1,5 @@
 set nocompatible              " be iMproved, required
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -7,6 +8,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'altercation/vim-colors-solarized'
 Plugin 'junegunn/vim-easy-align'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
@@ -17,11 +19,11 @@ Plugin 'honza/vim-snippets'
 Plugin 'mattn/emmet-vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'int3/vim-extradite'
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
+Plugin 'posva/vim-vue'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -41,11 +43,18 @@ call vundle#end()            " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-
 set number
+
 syntax enable " enable syntax hightlight and completion
+syntax on " syntax highlighing
 filetype on " try to detect file types
-"colorscheme jellybeans 
+
+"set t_Co=256
+"let &t_Co=256
+let g:solarized_termcolors=256    
+set background=dark
+colorscheme solarized
+
 set sw=2
 set ts=2
 set cursorline
