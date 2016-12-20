@@ -3,7 +3,7 @@
 
 `cp -f .vimrc ~/`
 
-2.Set up Vundle
+2.Set up [Vundle]
 
 `$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
