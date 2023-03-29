@@ -69,6 +69,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
+  nvm
+  npm
   z
   git
   git-flow
@@ -145,6 +147,7 @@ alias gps="git push"
 alias proxy='export all_proxy=socks5://127.0.0.1:1086'
 alias unproxy='unset all_proxy'
 alias myip='curl cip.cc'
+alias pn=pnpm
 
 [[ -s "/Users/catwen/.gvm/scripts/gvm" ]] && source "/Users/catwen/.gvm/scripts/gvm"
 
